@@ -258,6 +258,11 @@ Complete Exercise 15 in the space below:
 console.log('====== Exerise 15 =============');
 let total = 0;
 numArrays.forEach( n =>{
-    total =n+total;
+    n.forEach(n1 =>{
+        total = total+ n1
+    })
 })
 console.log('Exercise 15 result:\n', total);
+
+
+//Hope everthing is correct 
